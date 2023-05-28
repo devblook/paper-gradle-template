@@ -1,0 +1,17 @@
+main: 'team.devblook.template.PluginTemplate'
+name: 'PluginTemplate'
+version: '1.0.0'
+description: 'PluginTemplate'
+author: 'DevBlook'
+api-version: '1.19'
+bootstrapper: 'team.devblook.template.PluginTemplateBootstrap'
+loader: 'team.devblook.template.PluginTemplateLoader'
+
+dependencies:
+  - name: MiniPlaceholders
+    required: true
+    bootstrap: true
+
+load-after:
+  - name: MiniPlaceholders
+    bootstrap: true
