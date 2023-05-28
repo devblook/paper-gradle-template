@@ -1,4 +1,4 @@
-package io.devblook.template;
+package team.devblook.template;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
